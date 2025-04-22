@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Olympics Namibia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: #d90429;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?sports') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #d90429;
+    }
+
+    .programs, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .programs div, .portfolio div {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffcccb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Special Olympics Namibia</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#programs">Programs</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h2>Empowering Athletes, Changing Lives</h2>
+  </div>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <p>
+      Special Olympics is a global organization that serves athletes with intellectual disabilities working with hundreds of thousands of volunteers and coaches each year.
+      Since the establishment of Special Olympics in 1968, the number of people with and without intellectual disabilities who are involved with the organization has been growing,
+      but the unmet need to reach more people with intellectual disabilities is staggering. It's at the local level—right here—where interested volunteers meet the athletes.
+      That’s where the perceptions start to change and where the miracle of transformation takes place.
+    </p>
+    <p>
+      Special Olympics provides year-round sports training and athletic competition in a variety of Olympic-type sports for children and adults with intellectual disabilities.
+      Those activities give them continuing opportunities to develop physical fitness, demonstrate courage, experience joy and participate in a sharing of gifts, skills and friendship.
+    </p>
+  </section>
+
+  <section id="programs">
+    <h3>Programs We Offer</h3>
+    <div class="programs">
+      <div>
+        <h4>Unified Sports</h4>
+        <p>Teams made up of people with and without intellectual disabilities playing together.</p>
+      </div>
+      <div>
+        <h4>Young Athletes</h4>
+        <p>A fun introduction to sports for children aged 2 to 7 with and without intellectual disabilities.</p>
+      </div>
+      <div>
+        <h4>Healthy Athletes</h4>
+        <p>Provides free health screenings and education to Special Olympics athletes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+    <div class="portfolio">
+      <div>
+        <img src="https://source.unsplash.com/300x200/?sports,event" alt="Event 1" style="width:100%; border-radius: 8px;">
+        <p>Annual sports day 2023</p>
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/300x200/?teamwork" alt="Event 2" style="width:100%; border-radius: 8px;">
+        <p>Team building and inclusion workshops</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <p>Email: contact@specialolympicsnamibia.org</p>
+    <p>Phone: +264 61 000 0000</p>
+    <p>Location: Windhoek, Namibia</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Special Olympics Namibia. All rights reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
